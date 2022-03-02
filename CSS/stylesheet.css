@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+*{
+ margin: 0;   
+ padding: 0;
+ font-family: 'Outfit', sans-serif;
+}
+.container{
+    background-color: hsl(217, 54%, 11%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    background-color: hsl(216, 50%, 16%);
+    width: 89vw;
+    border-radius: 25px;
+}
+.equilibrium{
+    padding: 27px 23px;
+}
+.equilibrium-img{
+    text-align: center;
+}
+.equilibrium-img img{
+    width:75vw;
+    border-radius:15px;
+}
+.equilibrium h1{
+    font-size: 18px;
+    color: white;
+    margin: 10px 0px;
+}
+.equilibrium p{
+    color:hsl(215, 51%, 70%);
+    font-size: 14px;
+}
+.eth{
+    display:inline-flex;
+    padding:0 20px;
+    margin-bottom: 12px;
+}
+.eth span p{
+    color: #00fff8;
+    font-size: 14px;
+    margin-left: 5px;
+}
+.time{
+    display:inline-flex;
+    float: right;
+    padding: 0 20px;
+}
+.time span img{
+    margin-right: 5px;
+}
+.time span p{
+    color:hsl(215, 51%, 70%);
+    font-size:14px;
+}
+.hr{
+    width: 76vw;
+    margin: auto;
+}
+.profile{
+    display:flex;
+    padding:0 20px;
+    margin: 14px 0px;
+}
+.profile img{
+    width: 11vw;
+    border: 1px solid white;
+    border-radius: 100%;
+}
+.profile p{
+    color:hsl(215, 51%, 70%);
+    margin: 13px 12px;
+    font-size:14px;
+}
+.profile p a{
+    color: white;
+    cursor: pointer;
+}
+@media screen and (min-width:375px) and (max-width:600px){
+    .card{
+        width:62vw;
+        }
+    .equilibrium{
+        padding: 2em 2em;
+    }
+    .equilibrium-img img{
+        width:46vw;
+    }
+    .equilibrium p{
+        font-size:10px;
+    }
+    .eth{
+        padding: 0 0 0 2em;
+        font-size:10px;
+    }
+    .time{
+        padding:0 2em 0 0;
+        font-size:10px;
+    }
+    .hr{
+        width: 52vw;
+    }
+    .profile{
+        padding: 0 1.75em;
+    }
+    .profile img{
+        width: 10vw;
+        height: 6vh;
+    }
+    .profile p{
+        font-size:10px;
+    }
+}
+@media screen and (min-width:600px) and (max-width:750px){
+    .card{
+        width:62vw;
+        }
+    .equilibrium{
+        padding: 2em 2em;
+    }
+    .equilibrium-img img{
+        width:52vw;
+    }
+    .eth{
+        padding: 0 2em;
+    }
+    .time{
+        padding: 0 2em;
+    }
+    .hr{
+        width: 52vw;
+    }
+    .profile{
+        padding: 0 2em;
+    }
+    .profile img{
+        width: 7vw;
+    }
+}
+
+  @media screen and (min-width:750px) and (max-width:1050px){
+    .card{
+        width:49vw;
+        }
+    .equilibrium{
+        padding: 2.5em 2.5em;
+    }
+    .equilibrium-img img{
+        width:38vw;
+    }
+    .eth{
+        padding: 0 2.5em;
+    }
+    .time{
+        padding: 0 2.5em;
+    }
+    .hr{
+        width: 38vw;
+    }
+    .profile{
+        padding: 0 2.5em;
+    }
+    .profile img{
+        width: 6vw;
+    }
+}
+@media screen and (min-width:1050px) and (max-width:1920px){
+    .container{
+        overflow: hidden;
+    }
+    .card{
+        width:28vw;
+        }
+    .equilibrium{
+        padding: 45px;
+    }
+    .equilibrium-img img{
+        width:22vw;
+    }
+    .eth{
+        padding: 0 45px;
+    }
+    .time{
+        padding: 0 45px;
+    }
+    .hr{
+        width: 22vw;
+    }
+    .profile{
+        padding: 0 45px;
+    }
+    .profile img{
+        width: 3vw;
+    }
+}
+
+
